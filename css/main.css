@@ -427,6 +427,10 @@ html {scroll-behavior: smooth;}
 /* Small Screens (max width : 768px) */
 @media (max-width: 768px)
 {
+    .h2 {font-size: 36px;}
+
+    .h2 + p {font-size: 12px;}
+
     /* Header */
     .header .header-info-box h1 {font-size: 48px;}
 
@@ -470,7 +474,7 @@ html {scroll-behavior: smooth;}
     .contact .contact-details {margin-top: 1rem;}
 
     /* underline */
-    .h2::after {bottom: -70px; }
+    .h2::after {bottom: -60px; }
     
 }
 
